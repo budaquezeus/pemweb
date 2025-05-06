@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wizarding World Clone</title>
+  <link rel="stylesheet" href="heripoter.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="ChatGPT_Image_May_5__2025__01_29_16_PM-removebg-preview.png" alt="Logo" class="logo">
+      <!-- <ul class="nav-links">
+        <li>News & Features</li>
+        <li>Quizzes & Puzzles</li>
+        <li>J.K. Rowling Archive</li>
+        <li>Discover</li>
+        <li>Hogwarts Sorting</li>
+        <li>Patronus Experience</li>
+        <li>Shop</li>
+      </ul> -->
+    </div>
+    <div class="navbar-right">
+      <button class="toggle-btn" aria-label="toggle-sidebar" title="Toggle Sidebar" id="toggleBtn">
+        <!-- <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div> -->
+
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="sidebar" id="sidebar" role="navigation" aria-label="Primary Navigation">
+        <h2>Menu</h2>
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search..." aria-label="Search navigation links"
+        </div>
+        <ul>
+          <li><a href="#home" class="active" tabindex="0">Home</a></li>
+          <li><a href="#facility" tabindex="0">Facility</a></li>
+          <li><a href="#achievement" tabindex="0">Achievement</a></li>
+          <li><a href="#contact" tabindex="0">Contact</a></li>
+          <li><a href="#student activity" class="active" tabindex="0">Student Activity</a></li>
+        </ul>
+      </nav>
+      <!-- <input type="text" placeholder="Search..." class="search-box">
+      <button class="login-btn">Log In</button>
+      <button class="signup-btn">Sign Up</button> -->
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>HOW HARRY, RON AND HERMIONE PULLED OFF THE ULTIMATE HEIST</h1>
+      <p>According to Hagrid: ‘Gringotts is the safest place in the world fer anything yeh want ter keep safe – ‘cept maybe Hogwarts’...</p>
+      <button class="read-button">Read</button>
+    </div>
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="#" alt="">
+        </div>
+        <div class="item">
+          <img src="#" alt="">
+        </div>
+        <div class="item">
+          <img src="#" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="prev" ></button>
+      <button id="next">></button>
+    </div>
+  </header>
+
+  <section class="cards">
+    <div class="card">
+      <img src="potion.jpeg" alt="Battle of Hogwarts" />
+      <div class="card-content">
+        
+        <span><a href="#">Potions!</a></span>
+        <!-- <p>Explore the Battle of Hogwarts collection</p> -->
+      </div>
+    </div>
+    <div class="card">
+      <img src="WhatsApp Image 2025-05-05 at 08.29.51_1fcd492c.jpg" alt="Quiz" />
+      <div class="card-content">
+        <span><a href="#">CARE OF MAGICAL CREATURE!</a></span>
+        <!-- <p>The Duelling Club quiz</p> -->
+      </div>
+    </div>
+    <div class="card">
+      <img src="herbology.jpeg" alt="" />
+      <div class="card-content">
+        <span><a href="#">HERBOLOGY!</a></span>
+        <!-- <p>The Duelling Club quiz</p> -->
+      </div>
+    </div>
+    <div class="card">
+      <img src="dementor2.jpeg" alt=""/>
+      <div class="card-content">
+        <span><a href="#">DEFENSE AGAINST THE DARK ARTS!</a></span>
+        <!-- <p>The Duelling Club quiz</p> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="poll">
+    <h3>Which professor would you assist in the Battle of Hogwarts?</h3>
+    <button onclick="vote('Sprout')">Sprout</button>
+    <button onclick="vote('McGonagall')">McGonagall</button>
+    <div id="vote-result"></div>
+  </section>
+  
+  <section>
+
+  </section>
+  <footer>
+  <footer class="uph-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="ChatGPT_Image_May_5__2025__01_29_16_PM-removebg-preview.png" alt="UPH Logo" class="logo" />
+        <div class="footer-info">
+          <p><a href="https://goo.gl/maps/Xtk5XJ7xFhC2" target="_blank">Jl. M. H. Thamrin Boulevard 1100, Lippo Village Tangerang 15811, Indonesia</a></i></p>
+          <p> (021) 546 0901</p>
+          <p> undergraduate.admission@uph.edu<br>graduate.admission@uph.edu</p>
+        </div>
+      </div>
+    
+      <div class="footer-links">
+        <div class="our-campus">
+          <h4>Our Campuses</h4>
+          <ul>
+            <li>UPH Medan</li>
+            <li>UPH Surabaya</li>
+            <li>UPH College</li>
+            <li>UPH Learning Center</li>
+          </ul>
+        </div>
+        <div class="right-ourcampus">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>Alumni</li>
+            <li>UPH Festival</li>
+            <li>Careers</li>
+            <li>Contact List</li>
+            <li>Contact Us</li>
+            <li>Registrar</li>
+            <li>Academic Calendar</li>
+            <li>Quiz</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="heripoter.js"></script>
+</body>
+</html>
